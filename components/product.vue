@@ -5,7 +5,7 @@
         </div>
         <div class="flex justify-between items-center">
             <div>
-                <h1 class="text-lg mb-1">{{ product.title }}</h1>
+                <nuxt-link to="/product/tvorog-bez-saxara" class="cursor-pointer text-lg mb-1">{{ product.title }}</nuxt-link>
                 <client-only>
                     <rate :model-value="product.rate" />
                 </client-only>
