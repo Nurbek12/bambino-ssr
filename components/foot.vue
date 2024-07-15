@@ -2,7 +2,7 @@
     <footer class="w-full bg-gray-100">
         <div class="container mx-auto">
             <!--Grid-->
-            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-8 max-sm:max-w-sm max-sm:mx-auto gap-y-8">
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-8 py-8 gap-y-8">
                 <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
                     <nuxt-link to="/">
                         <img src="/logo.png" width="180" />
